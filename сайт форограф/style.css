@@ -1,0 +1,333 @@
+body{
+    max-width: 943px;
+    margin: auto;
+    padding: 10px;
+}
+.menu a{
+     text-decoration: none; 
+     color: #828282;
+     font-family: 'Gilroy-Bold';
+     font-size: 18px;
+     line-height: 22px;
+     text-align: left;
+}
+.menu a:hover{
+    color: black;
+}
+hr{
+    margin-top: 31px;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+
+
+.Denis_Novik_img{
+    max-width: 945px;
+    width: 100%;
+}
+.Denis_Novik_img_mobile{
+    display: none;
+}
+.name_Denis_Novik{
+    font-family: 'Gilroy-Bold';
+    font-size: 47px;
+    line-height: 59px;
+    color: #070707;
+}
+.header_UXUI{
+    font-family: 'GilroyMedium';
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 94px;
+   margin-left: -80px;
+}
+.header_RU_ENG{
+    color: #828282;
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    transform: rotate(-90deg);
+    margin-top: 69px;
+    margin-right: -70px;
+}
+.header_RU_ENG span{
+    color: black;
+}
+.header_Denis_Novik{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+h2{font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: center;
+    }
+    .About_me h2{
+        margin-top: 224px;
+    }
+    .About_me p{
+        font-family: 'Gilroy-Medium';
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        font-weight: 400;  
+    }
+
+
+    .Skills h2{
+        margin-top: 198px;
+    }
+    .Skills_work{
+        font-family: Gilroy-Medium;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;  
+    }
+    .Skills img{
+        width: 89px;
+        height: 88px;
+    }
+
+    .Skills:last-child{
+        width:58px;
+        height:88px;
+    }
+
+    .Skills_imgs_alignment{
+        display: flex;
+        justify-content: space-between;
+    }
+  .Skills_imgs p{
+      margin-top: 23px;
+      margin-bottom: 41px;
+      color: #828282;
+      text-align: center;
+  }
+ .special_character{
+    font-size: 26px;
+ }
+ .figma{
+     width: px;
+     height: 88px;
+
+ }
+
+
+
+ .Portfolio h2{
+     margin-top: 222px;
+     margin-bottom: 47px;
+ }
+ .Portfolio_Online_fashion_store img{
+    max-width: 945px;
+    width: 100%;
+ }
+ .Portfolio_Online_fashion_store p{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 44px;
+    margin-bottom: 99px;
+ }
+ .Portfolio_Reebok_Store img{
+    max-width: 945px;
+    width: 100%;
+ }
+ .Portfolio_Reebok_Store p{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 44px;
+    margin-bottom: 99px;
+ }
+ .Portfolio_Braun_Page img{
+    max-width: 945px;
+    width: 100%;
+ }
+ .Portfolio_Braun_Page p{
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 45px;
+    margin-bottom: 210px;
+ }
+
+
+ .Contacts h2{
+margin-bottom: 20px;
+ }
+ .Contacts p{
+     margin-bottom: 30px;
+     text-align: center;
+     font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+ }
+ .Contacts button{
+    width: 180px;
+    height: 42px;
+    background-color: black; 
+    color: white;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    padding: 0 auto;
+    border-radius: 20px;
+    border: 1px solid #070707;
+    margin: 0 auto;
+    display: block;
+ }
+.social_network img{
+   width: 40px;
+   height: 40px;
+   margin-top: 85px;
+   margin-bottom: 45px;
+}
+.social_network_img{
+   margin-left: 62px; 
+}
+.social_network{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.Contacts p{
+text-align: center;
+font-family: 'Gilroy-Medium';
+font-size: 18px;
+line-height: 17px;
+color: #828282;
+}
+
+
+
+@media  screen and (min-width:480px) and (max-width:800px){
+    .name_Denis_Novik{
+        margin-top:10px;
+    }
+    .header_UXUI{
+        margin-top:70px;
+    }
+    .header_RU_ENG{
+        margin-top:20px; 
+        margin-right: -75px;
+    }
+    .About_me h2{
+        margin-top: 124px;
+    }
+    .Skills h2{
+        margin-top: 135px;
+    }
+    .Skills_imgs p{
+        margin-top: 20px;
+        margin-bottom: 35px;
+    }
+    .Portfolio h2{
+        margin-top: 135px;
+        margin-bottom: 40px;
+    }
+  .Portfolio_Online_fashion_store p{
+    margin-left: 185px;
+  }
+  .Portfolio_Reebok_Store p{
+    margin-left: 255px;
+    margin-bottom: 160px;
+  }
+}
+@media (max-width:375px){
+    /*Навигационое меню*/
+    .menu {
+       display: none;
+    }
+    hr{
+        display: none; 
+    }
+    .name_Denis_Novik{
+        margin-top:65px;
+        margin-left: 26px;
+        margin-bottom: 0;
+    }
+    .header_RU_ENG{
+        display: none;   
+    }
+    .header_Denis_Novik{
+        display: flex;
+        flex-direction:column
+    }
+    .header_UXUI{
+        margin-top:23px;
+       margin-left: 28px;
+    }
+    .Denis_Novik_img{
+        display: none;
+    }
+    .Denis_Novik_img_mobile{
+        display: block;
+        width: 316px;
+        height: 478px;
+        margin-left: 29px;
+        margin-right: 29px;
+    }
+    /*Навигационое меню*/
+
+
+    .About_me h2{
+        margin-top: 164px;
+        margin-bottom: 0;
+    }
+    .About_me p{
+        margin:29px 0 41px 29px ;
+    }
+    .Skills h2{
+        margin-top: 159px;
+        margin-bottom: 0;
+    }
+    .Skills_work{
+        margin-top:50px;
+    }
+    .Skills_imgs_alignment{
+        display: flex;
+        flex-direction: column;
+   
+    }
+    .Skills_imgs{
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+       margin-bottom: 0px;
+    }
+    .special_character{
+        margin-top:0px;
+        margin-left: 104px;
+    }
+    .Skills img{
+        margin-left: 135px; 
+    }
+    .Portfolio h2{
+        margin-top: 180px;
+    }
+    .Contacts button{
+        width: 316px;
+    }
+    .social_network{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
